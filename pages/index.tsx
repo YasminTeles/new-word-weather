@@ -11,18 +11,28 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Word Weather</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Typography
+          variant="h2"
+          align="center"
+          color="textPrimary"
+          gutterBottom
+        >
+          Welcome to Word Weather!
+        </Typography>
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Typography
+          variant="h6"
+          align="center"
+          color="textSecondary"
+          paragraph
+        >
+          Get started by finding a city and then check the weather.
+        </Typography>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

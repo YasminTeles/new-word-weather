@@ -2,14 +2,24 @@ import { render, screen } from '@testing-library/react'
 import Home from '@/pages/index'
 
 describe('Home', () => {
-  it('renders a heading', () => {
+  it('renders a title', () => {
     render(<Home />)
 
-    const heading = screen.getByRole('heading', {
-      name: /welcome to next\.js!/i,
+    const title = screen.getByRole('heading', {
+      name: /Welcome to Word Weather!/i,
     })
 
-    expect(heading).toBeInTheDocument()
+    expect(title).toBeInTheDocument()
+  })
+
+  it.skip('renders a subtitle', () => {
+    render(<Home />)
+
+    const subtitle = screen.getByRole('phase', {
+      name: /Get started by finding a city and then check the weather./i,
+    })
+
+    expect(subtitle).toBeInTheDocument()
   })
 
   it('renders a footer', () => {

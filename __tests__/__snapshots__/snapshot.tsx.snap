@@ -6,23 +6,15 @@ exports[`renders homepage unchanged 1`] = `
     class="container"
   >
     <main>
-      <h1
-        class="title"
+      <h2
+        class="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter MuiTypography-gutterBottom css-10759ka-MuiTypography-root"
       >
-        Welcome to 
-        <a
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
-      </h1>
+        Welcome to Word Weather!
+      </h2>
       <p
-        class="description"
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter MuiTypography-paragraph css-1wu2fk9-MuiTypography-root"
       >
-        Get started by editing 
-        <code>
-          pages/index.js
-        </code>
+        Get started by finding a city and then check the weather.
       </p>
       <div
         class="grid"
