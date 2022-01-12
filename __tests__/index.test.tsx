@@ -11,4 +11,14 @@ describe('Home', () => {
 
     expect(heading).toBeInTheDocument()
   })
+
+  it('renders a footer', () => {
+    render(<Home />)
+
+    const footer = screen.getByRole('heading', {
+      name: /This side project is made/i,
+    })
+
+    expect(footer).toBeInTheDocument()
+  })
 })

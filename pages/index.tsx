@@ -1,5 +1,9 @@
 import Head from "next/head"
-import Image from "next/image"
+
+import Typography from "@mui/material/Typography"
+
+import Author from "./components/Author"
+import HeartIcon from "./components/HeartIcon"
 
 import styles from "@/pages/index.module.css"
 
@@ -48,17 +52,14 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+      <footer>
+        <Typography
+          variant='h6'
+          align='center'
+          gutterBottom
         >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+          This side project is made with <HeartIcon /> by <Author />
+        </Typography>
       </footer>
     </div>
   )
