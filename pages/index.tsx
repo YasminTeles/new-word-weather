@@ -7,6 +7,7 @@ import Grid from "@mui/material/Grid"
 import Author from "./components/Author"
 import HeartIcon from "./components/HeartIcon"
 import Pitch from "./components/Pitch"
+import Menu from "./components/Menu/Menu"
 
 export default function Home() {
   return (
