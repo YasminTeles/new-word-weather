@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography"
 
 import Author from "../components/Author"
 import HeartIcon from "../components/HeartIcon"
+import Menu from "../components/Menu/Menu"
 import Pitch from "../components/Pitch"
 
 export default function Home() {
@@ -17,6 +18,8 @@ export default function Home() {
       </Head>
 
       <main>
+        <Menu />
+
         <Container maxWidth="lg">
           <Grid
             container
