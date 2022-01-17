@@ -34,7 +34,7 @@ export default function MobileMenu({ pages }: MenuProps) {
         aria-controls="menu-appbar"
         aria-haspopup="true"
         onClick={handleOpenNavMenu}
-        color="inherit"
+        color="primary"
       >
         <MenuIcon />
       </IconButton>
@@ -62,7 +62,12 @@ export default function MobileMenu({ pages }: MenuProps) {
             key={page.name}
             onClick={handleCloseNavMenu(page.href)}
           >
-            <Typography textAlign="center">{page.name}</Typography>
+            <Typography
+              color="secondary"
+              textAlign="center"
+            >
+              {page.name}
+            </Typography>
           </MenuItem>
         ))}
       </Menu>
