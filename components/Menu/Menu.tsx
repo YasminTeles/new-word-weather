@@ -18,6 +18,7 @@ export default function Menu() {
     <AppBar
       position="static"
       elevation={0}
+      color="transparent"
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>

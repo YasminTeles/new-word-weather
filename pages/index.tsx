@@ -4,10 +4,11 @@ import Container from "@mui/material/Container"
 import Typography from "@mui/material/Typography"
 import Grid from "@mui/material/Grid"
 
-import Author from "./components/Author"
-import HeartIcon from "./components/HeartIcon"
-import Pitch from "./components/Pitch"
-import Menu from "./components/Menu/Menu"
+import Author from "../components/Author"
+import HeartIcon from "../components/HeartIcon"
+import Pitch from "../components/Pitch"
+import Menu from "../components/Menu/Menu"
+import Waves from "../components/Waves"
 
 export default function Home() {
   return (
@@ -18,24 +19,29 @@ export default function Home() {
       </Head>
 
       <main>
-        <Menu />
+        <section >
+          <Menu />
 
-        <Container maxWidth="lg">
-          <Grid
-            container
-            spacing={2}
-            height="60vh"
-            alignItems="center"
-          >
+          <Container maxWidth="lg">
             <Grid
-              item
-              xs={12}
-              md={4}
+              container
+              spacing={2}
+              height="60vh"
+              alignItems="center"
             >
-              <Pitch />
+              <Grid
+                item
+                xs={12}
+                md={4}
+              >
+                <Pitch />
+              </Grid>
             </Grid>
-          </Grid>
-        </Container>
+          </Container>
+
+          <Waves />
+
+        </section>
       </main>
 
       <footer>

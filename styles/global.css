@@ -34,3 +34,28 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+section {
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg,
+  #EB7B15 0%, #F956B3 74%);
+}
+
+.waves-divider {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waves-divider svg {
+  position: relative;
+  display: block;
+  width: calc(147% + 1.3px);
+}
+
+.waves-divider .shape-fill {
+  fill: #FFFFFF;
+}
