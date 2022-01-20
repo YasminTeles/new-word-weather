@@ -13,6 +13,7 @@ import HeartIcon from "../components/HeartIcon"
 import Pitch from "../components/Pitch"
 import Menu from "../components/Menu/Menu"
 import Waves from "../components/Waves"
+import World from "../components/World"
 
 const theme = createTheme({
   palette: {
@@ -46,8 +47,8 @@ export default function Home() {
             <Grid
               container
               spacing={2}
-              height="60vh"
               alignItems="center"
+              justifyContent="center"
             >
               <Grid
                 item
@@ -55,6 +56,17 @@ export default function Home() {
                 md={4}
               >
                 <Pitch />
+              </Grid>
+
+              <Grid
+                item
+                xs={12}
+                md={8}
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+              >
+                <World />
               </Grid>
             </Grid>
           </Container>
