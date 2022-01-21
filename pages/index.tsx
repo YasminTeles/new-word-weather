@@ -14,6 +14,7 @@ import Pitch from "../components/Pitch"
 import Menu from "../components/Menu/Menu"
 import Waves from "../components/Waves"
 import World from "../components/World"
+import Cities from "../components/Cities"
 
 const theme = createTheme({
   palette: {
@@ -74,6 +75,15 @@ export default function Home() {
           <Waves />
 
         </section>
+
+        <Container maxWidth="md">
+          <Grid
+            container
+            spacing={4}
+          >
+            <Cities />
+          </Grid>
+        </Container>
       </main>
 
       <footer>
