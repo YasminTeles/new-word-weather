@@ -24,10 +24,10 @@ footer {
   justify-content: center;
   align-items: center;
 
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding: 48px 0;
 }
 
 a {
