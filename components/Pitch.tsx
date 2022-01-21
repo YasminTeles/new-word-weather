@@ -1,6 +1,7 @@
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
+
+import CheckWeatherButton from './CheckWeatherButton'
 
 export default function Pitch() {
   return (
@@ -27,12 +28,7 @@ export default function Pitch() {
         Get started by finding a city and then check the weather.
       </Typography>
 
-      <Button
-        variant="contained"
-        disabled
-      >
-        Check the weather!
-      </Button>
+      <CheckWeatherButton />
     </Stack>
   )
 }

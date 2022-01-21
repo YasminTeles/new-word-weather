@@ -76,7 +76,10 @@ export default function Home() {
 
         </section>
 
-        <Container maxWidth="md">
+        <Container
+          maxWidth="md"
+          id="results"
+        >
           <Grid
             container
             spacing={4}
