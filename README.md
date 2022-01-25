@@ -1,5 +1,24 @@
 # The World Weather
 
+This application show weather information of cities around the world.
+
+## How to use?
+
+The main functionalities of the application are:
+
+1. Showing a map. The application must show a map and a button "Search".​
+
+2. Adding a pin. The user should be able to place a pin on the map and click on the button "Search".​
+
+3. The application needs to call Open Weather API considering the LAT/LON where the user placed the pin and search for the closest 15 cities.
+
+4. Listing cities. The application needs to show the list of the city names and the user should be able to visualize more information about the city temperature.​
+
+5. Selecting a city. When the user picks a city, the application opens a new window showing more details:​
+   - Name of the selected city​
+   - Minimum temperature (Celsius)​
+   - Maximum temperature (Celsius)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purpose.
