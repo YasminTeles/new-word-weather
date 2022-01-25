@@ -1,23 +1,5 @@
-# Next.js + Jest
+# The World Weather
 
-This example shows how to configure Jest to work with Next.js.
+## Versions
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
+We use [Semantic version](http://semver.org) for versioning. For versions available, see [Changelog](CHANGELOG.md).
