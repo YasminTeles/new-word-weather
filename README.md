@@ -83,6 +83,30 @@ make docker-kill
 
 </details>
 
+## Built with
+
+This project uses the following technologies:
+
+For continuos integration:
+
+- [Eslint](https://eslint.org/) - Find and fix problems in your JavaScript code.
+
+- [Editor config](https://editorconfig.org/) - EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
+
+- [Semantic Releases](https://semanticreleases.com) - Fully automated version management and package publishing.
+
+- [GitHub Action](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, like continuos integrations and continuos deploy.
+
+For style guide:
+
+- [Material UI](https://mui.com/) - A popular React UI framework.
+
+For create react project:
+
+- [Next.js](https://nextjs.org/docs) - Learn about Next.js features and API.
+
+- [Lodash](https://nextjs.org/docs) - Lodash is life =D.
+
 ## Versions
 
 We use [Semantic version](http://semver.org) for versioning. For versions available, see [Changelog](CHANGELOG.md).
