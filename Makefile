@@ -21,3 +21,12 @@ build: ## Build application.
 
 lint: ## Run lint.
 	@yarn run lint
+
+docker-build: ## Build container's Docker.
+	@docker build -t app .
+
+docker-run: ## Run container's Docker.
+	@docker run --name world-weather -p 3000:3000 -it app
+
+docker-kill: ## Kill container's Docker.
+	@docker kill world-weather
