@@ -1,7 +1,53 @@
 {
   "root": true,
-  "extends": ["next/core-web-vitals"],
-  "plugins": ["testing-library"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+		"plugin:react-perf/recommended"
+  ],
+
+  "plugins": [
+    "react",
+    "testing-library",
+    "import",
+		"eslint-plugin-import-helpers",
+    "react-hooks",
+		"react-perf"
+  ],
+
+  "rules": {
+    "react/no-multi-comp": "error",
+    "semi": ["error","never"],
+    "quotes": ["error", "double"],
+    "eqeqeq": ["error", "always"],
+    "no-unused-expressions": [
+      "error",
+      { "allowTaggedTemplates": true }
+    ],
+
+    "react/react-in-jsx-scope": "off",
+
+    "import/no-named-as-default": "off",
+
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          "/^react/",
+          "module",
+          ["parent", "sibling", "index"],
+          "/^@/pages/"
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
+      }
+    ]
+  },
+
   "overrides": [
     // Only uses Testing Library lint rules in test files
     {
@@ -12,4 +58,5 @@
       "extends": ["plugin:testing-library/react"]
     }
   ]
+
 }
