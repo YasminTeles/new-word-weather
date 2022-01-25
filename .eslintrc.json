@@ -36,6 +36,7 @@
         "newlinesBetween": "always",
         "groups": [
           "/^react/",
+          "/^next/",
           "module",
           ["parent", "sibling", "index"],
           "/^@/pages/"
