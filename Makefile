@@ -16,6 +16,9 @@ run: ## Run local application.
 test: ## Run tests.
 	@yarn run test
 
+test-ci: ## Run tests in continuos integration.
+	@yarn run test:ci
+
 build: ## Build application.
 	@yarn run build
 

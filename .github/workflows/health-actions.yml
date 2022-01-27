@@ -35,7 +35,7 @@ jobs:
         run: make setup
 
       - name: Run tests
-        run: make test
+        run: make test-ci
 
   Build:
     needs: [Lint, Test]
