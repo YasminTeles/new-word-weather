@@ -3,7 +3,7 @@ name: Generate an release
 on:
   workflow_run:
     workflows: ["Check code health"]
-    branches: [master]
+    branches: [master, main]
     types:
       - completed
 
