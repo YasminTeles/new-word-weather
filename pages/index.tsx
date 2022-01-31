@@ -5,6 +5,7 @@ import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
 
 import Author from "../components/Author"
+import BackToTopButton from "../components/BackToTopButton"
 import Cities from "../components/Cities"
 import HeartIcon from "../components/HeartIcon"
 import Menu from "../components/Menu/Menu"
@@ -21,7 +22,10 @@ export default function Home() {
       <main>
         <Menu />
 
-        <Container maxWidth="lg">
+        <Container
+          maxWidth="lg"
+          id="bannerHero"
+        >
           <Grid
             container
             spacing={2}
@@ -49,6 +53,9 @@ export default function Home() {
             <Cities />
           </Grid>
         </Container>
+
+        <BackToTopButton />
+
       </main>
 
       <footer>
