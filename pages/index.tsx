@@ -2,8 +2,8 @@ import Head from "next/head"
 
 import Typography from "@mui/material/Typography"
 
-import Author from "./components/Author"
-import HeartIcon from "./components/HeartIcon"
+import Author from "../components/Author"
+import HeartIcon from "../components/HeartIcon"
 
 import styles from "@/pages/index.module.css"
 
