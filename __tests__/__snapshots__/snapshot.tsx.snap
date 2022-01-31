@@ -81,7 +81,7 @@ exports[`renders homepage unchanged 1`] = `
       class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
     >
       <div
-        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-10ms2dw-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-ofrcno-MuiGrid-root"
       >
         <div
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
@@ -116,6 +116,482 @@ exports[`renders homepage unchanged 1`] = `
                   class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
                 />
               </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 MuiCard-root css-swuook-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignJustify MuiTypography-gutterBottom css-177y6oi-MuiTypography-root"
+              >
+                Rio de Janeiro
+              </p>
+              <h4
+                class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-uuxzfg-MuiTypography-root"
+              >
+                25 
+                <span>
+                  °
+                </span>
+                C
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-18brw8f-MuiTypography-root"
+              >
+                34
+                <span>
+                  °
+                </span>
+                C
+                 max
+                <br />
+                15
+                <span>
+                  °
+                </span>
+                C
+                 min
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-zz4ct"
+            >
+              <img
+                alt="Live from space album cover"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1dxioin-MuiCardMedia-root"
+                src="/images/cloudy.png"
+              />
             </div>
           </div>
         </div>

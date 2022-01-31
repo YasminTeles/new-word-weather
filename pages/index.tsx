@@ -5,6 +5,7 @@ import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
 
 import Author from "../components/Author"
+import Cities from "../components/Cities"
 import HeartIcon from "../components/HeartIcon"
 import Menu from "../components/Menu/Menu"
 import Pitch from "../components/Pitch"
@@ -24,7 +25,7 @@ export default function Home() {
           <Grid
             container
             spacing={2}
-            height="60vh"
+            // height="60vh"
             alignItems="center"
           >
             <Grid
@@ -34,6 +35,15 @@ export default function Home() {
             >
               <Pitch />
             </Grid>
+          </Grid>
+        </Container>
+
+        <Container maxWidth="lg">
+          <Grid
+            container
+            spacing={4}
+          >
+            <Cities />
           </Grid>
         </Container>
       </main>
