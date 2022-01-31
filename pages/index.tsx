@@ -38,7 +38,10 @@ export default function Home() {
           </Grid>
         </Container>
 
-        <Container maxWidth="lg">
+        <Container
+          maxWidth="lg"
+          id="results"
+        >
           <Grid
             container
             spacing={4}

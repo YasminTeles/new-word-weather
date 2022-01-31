@@ -1,8 +1,9 @@
-import Button from "@mui/material/Button"
 import Card from "@mui/material/Card"
 import CardActions from "@mui/material/CardActions"
 import CardContent from "@mui/material/CardContent"
 import Typography from "@mui/material/Typography"
+
+import CheckWeatherButton from "./CheckWeatherButton"
 
 const styles = {
   card: {
@@ -41,11 +42,7 @@ export default function Pitch() {
       <CardActions
         sx={styles.action}
       >
-        <Button
-          variant="contained"
-        >
-          Check the weather!
-        </Button>
+       <CheckWeatherButton />
       </CardActions>
     </Card>
   )
