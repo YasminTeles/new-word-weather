@@ -3,14 +3,7 @@ import React from "react"
 import NavigationIcon from "@mui/icons-material/Navigation"
 import Fab from "@mui/material/Fab"
 
-function goToTop() {
-  const node = document.getElementById("bannerHero")
-  if (node) {
-    node.scrollIntoView({
-      behavior: "smooth"
-    })
-  }
-}
+import scrollTo from "../utils/scrollTo"
 
 const styles = {
   position: "fixed",
@@ -25,7 +18,7 @@ export default function BackToTopButton() {
       aria-label="backToTop"
       sx={styles}
       onClick={React.useCallback(
-        () => goToTop(),
+        () => scrollTo("bannerHero"),
         []
       )}
     >

@@ -2,14 +2,7 @@ import React from "react"
 
 import Button from "@mui/material/Button"
 
-function goToResults() {
-  const node = document.getElementById("results")
-  if (node) {
-    node.scrollIntoView({
-      behavior: "smooth"
-    })
-  }
-}
+import scrollTo from "../utils/scrollTo"
 
 export default function CheckWeatherButton() {
   return (
@@ -17,7 +10,7 @@ export default function CheckWeatherButton() {
       variant="contained"
       onClick={React.useCallback(
         () => {
-          goToResults()
+          scrollTo("results")
         },
         []
       )}
