@@ -6,13 +6,13 @@ jobs:
   Lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 'lts/*'
-
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
 
       - name: Setup project
         run: make setup
@@ -23,13 +23,13 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 'lts/*'
-
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
 
       - name: Setup project
         run: make setup
@@ -41,13 +41,13 @@ jobs:
     needs: [Lint, Test]
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 'lts/*'
-
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
 
       - name: Setup project
         run: make setup
